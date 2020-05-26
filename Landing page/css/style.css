@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'GothamMedium';
+    src: url('../font/GothamMedium.ttf');
+}
+
+h1{
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'GothamMedium';
+}
+
+h2{
+    font-family: 'GothamMedium';
+}
+
+h3{
+    font-size: 1rem;
+    font-family: 'GothamMedium';
+}
+
+.header{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.main{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+}
+
+.second{
+    width: 110%;
+    margin-left: -5%;
+    padding: 0;
+    border: 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #B9D2C2;
+    justify-items: center;
+    height: 25vw;
+}
+
+.video_section{
+    width: 110%;
+    margin-left: -5%;
+    padding: 0;
+    border: 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #B9D2C2;
+    justify-items: center;
+    
+}
+
+.video_description{
+    position: relative;
+    align-self: center;
+    margin: auto;
+}
+
+.video_section h3{
+
+}
+
+.video_content{
+    width: 70%;
+    margin: 2.5vw 0 2.5vw 10vw;
+
+
+}
+
+.book {
+    padding: 0;
+    margin: 2.5vw 0 2.5vw 20vw;
+    border: 0;
+    height: 35vh;
+    position: relative;
+    align-self: center;
+
+}
+
+.resume_1{
+    width: 70%;
+    display: inline;
+    margin: auto;
+}
+
+.resume_1 h3{
+ margin: 2.5vw 0 2.5vw 0;
+}
+
+.resume_2{
+    width: 70%;
+    display: inline;
+    margin: 0 auto auto auto;
+}
+
+.resume_2 h3{
+    margin: 2.5vw 0 2.5vw 0;
+}
+
+.info_text{
+    width: 80%;
+    display: inline;
+    margin: auto 0 auto -6vw;
+}
+
+.info_text h2{
+    font-size: 2.5rem;
+}
+
+.info_text h3{
+    font-size: 1.3rem;
+    width: 80%
+}
+
+
+
+.buy_button {
+    text-align: center;
+    display: inline;
+    margin: auto 20vw auto 0;
+}
+
+.button {
+    margin: 2.5vw 0 2.5vw 10vw;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #1C4433;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.author{
+    display: inline;
+    margin: 2.5vw 0 2.5vw 10vw;
+    border-radius: 100%;
+    width: 40%;
+    position: relative;
+}
+
+.author_text{
+    width: 70%;
+    display: inline;
+    margin: auto;
+}
+
+.author_text h3{
+    width: 80%;
+    margin: 2.5vw 10vw 2.5vw 0;
+    font-size: 1rem;
+}
+
+html, body {
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
